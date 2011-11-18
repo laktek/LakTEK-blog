@@ -215,13 +215,15 @@ color : rgb(0,0,0); }
 /* 5.FIGURES & IMAGES */
 
 figure {
-margin-bottom : 1.5em; float: left; }
+margin-bottom : 1.5em; width: 100%; float: left;}
 
 figure img,
 figure object,
 figure embed {
 margin-bottom : .75em;
-max-width : 100%; }
+max-width : 100%;
+float: none;
+}
 
 img { float:left; margin: .75em; }
 
