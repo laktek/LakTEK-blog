@@ -1,5 +1,5 @@
 name: LakTEK
-tagline: "A Sri Lankan, A Rubyist & A Web Dude (Lakshan Perera)"
+tagline: "A Sri Lankan, A Rubyist & A Web Dude"
 host: laktek.com
 permalink: /:year/:month/:day/:title
 auto: true
