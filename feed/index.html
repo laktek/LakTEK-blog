@@ -24,7 +24,7 @@ layout: nil
     {% for post in site.posts %}
 		<item>
       <title>{{ post.title }}</title>
-      <link>{{ post.url }}</link>
+      <link>http://{{site.host}}/{{ post.url }}</link>
       <comments>http://{{site.host}}/{{ post.url }}/#comments</comments>
       <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
       <dc:creator>Lakshan Perera</dc:creator>
@@ -34,7 +34,7 @@ layout: nil
       {% endfor %}
 
       <guid isPermaLink="false">http://{{ site.host }}/{{ post.url }}</guid>
-      <description><![CDATA[{{ post.excerpt | xml_escape }} [...]]]></description>
+      <description><![CDATA[{{ post.content | truncatewords: 100 | xml_escape }} [...]]]></description>
       <content:encoded><![CDATA[{{ post.content }}]]></content:encoded>
 		</item>
     {% endfor %}
