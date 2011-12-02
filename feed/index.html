@@ -24,7 +24,7 @@ layout: nil
     {% for post in site.posts %}
 		<item>
       <title>{{ post.title }}</title>
-      <link>http://{{site.host}}/{{ post.url }}</link>
+      <link>http://{{site.host}}{{ post.url }}</link>
       <comments>http://{{site.host}}{{ post.url }}/#comments</comments>
       <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
       <dc:creator>Lakshan Perera</dc:creator>
