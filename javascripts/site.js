@@ -304,7 +304,6 @@ $(function(){
 
   return false;
  });
-
  
  //on load
  if($("#archive-page").length > 0){
