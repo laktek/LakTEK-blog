@@ -188,7 +188,7 @@ word-wrap : break-word; }
 
 pre, 
 code { 
-font : .875em 'andale mono', 'lucida console', monospace; 
+font : .875em 'Bitstream Vera Sans Mono','Courier',monospace; 
 line-height : 1.5; }
 
 small {
