@@ -416,7 +416,7 @@ article h2.entry-title a { color: #3a3a3a; }
 article h2 a:hover { text-decoration: none; } 
 article h3 { color: #666; }
 article time { display: block; font-size: 1.1em; margin-bottom: 1em; color: #BFBFBF; }
-article p { text-align: justify; }
+article p { text-align: justify; line-height: 1.61; }
 article ul, article ol { margin-left: 1em; }
 article pre { border: 1px solid #BFBFBF; padding: 0.5em; background: #F9F9F9; }
 
