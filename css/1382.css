@@ -16,7 +16,7 @@
 /* 16.TEMPLATE SPECIFICS */
 /* home page blocks */
 
-div#main-content { width: 70%; float: left; max-width: none; }
+div#main-content { width: 72%; float: left; max-width: none; }
 article[role=latest] {float: left; width: 50%; margin-right: 2em; }
 div.home.posts  { float: left; width: 40%; margin: 0 0 1em 0; }
 

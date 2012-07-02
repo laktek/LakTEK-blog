@@ -99,7 +99,7 @@ $(function(){
      var article_extract_obj = $("<div></div>");
      article_extract_obj.append(raw_article);
 
-     $('article[role=latest] div.entry-content').html($(article_extract_obj.find('p')[paras_to_show]).prevAll(':not(h2, h3, h4, img, pre)'));
+     $('article[role=latest] div.entry-content').html($(article_extract_obj.find('p')[paras_to_show]).prevAll(':not(h2, h3, h4, img, pre, p.skip-homepage)'));
      $('article[role=latest] div.entry-content').show();
    }
 
