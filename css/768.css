@@ -45,7 +45,8 @@ header aside { display: block; }
 header aside p {padding: 0 1em 0 0;}
 header aside div { width: 100%; float: left; padding: 0.5em 0; }
 
-div#main-content { width: 65%; padding: 1em 0 0 0; margin-left: 18em; max-width: 710px;  }
+div#main-content { width: 65%; padding: 1em 0 0 0; margin-left: 20em; max-width: 710px;  }
+div#main-content.expanded { width: 80%; }
 div#main-content h2 {font-size: 1.875em; /* 30/16 = 1.875 */  }
 menu.filter { padding: 0.5em 0; font-size: 1.5em; }
 menu.filter ul.filters { width: 85%; height: 1.5em; }

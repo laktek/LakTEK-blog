@@ -81,8 +81,8 @@ h3,
 h4, 
 h5, 
 h6 {
-font-family : "Helvetica Neue", Helvetica, Arial;
-font-weight : bold; }
+font-family: 'Brawler', serif;	
+}
 
 h1 { 
 margin-bottom : .75em;
@@ -188,7 +188,7 @@ word-wrap : break-word; }
 
 pre, 
 code { 
-font : .875em 'Bitstream Vera Sans Mono','Courier',monospace; 
+font : .875em 'Source Code Pro', 'Bitstream Vera Sans Mono','Courier',monospace; 
 line-height : 1.5; }
 
 small {
